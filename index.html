@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="main.js" defer></script>
+    <title>Tour Gide</title>
+</head>
+<body>
+    <div class="navbar-fixed">
+        <nav>
+          <div class="nav-wrapper #7b1fa2 purple darken-2">
+            <a href="#" class="brand-logo">Tour of The Hague</a>
+          </div>
+        </nav>
+      </div>
+    <div id="container">
+        <div id="top-buttons">
+            <button id="fade-out" class="waves-effect waves-light btn #ab47bc purple lighten-1">Fade Out</button>
+            <button id="fade-in" class="waves-effect waves-light btn #ab47bc purple lighten-1">Fade In</button>
+        </div>
+        <img src="/images/den-haag.jpeg" alt="Den-Haag" id="img1"> 
+        <div id="main-content">
+            <h2>Come and visit the Hague to see for yourself that it is the most beautiful city in the Netherlands</h3>
+            <h4>History of the Ranstadt Area</h4>
+            <p id="para1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate natus sapiente at. Perferendis eum excepturi repellendus tempore eveniet numquam eaque neque aperiam dicta at itaque, adipisci minus, laudantium minima mollitia!
+            </p>
+            <br>
+            <p id="para2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque nostrum nesciunt eius repellendus unde molestias dolorem quam, ipsum, pariatur architecto, modi fugit quos illo quasi temporibus. Fugiat fuga nesciunt porro!</p>
+        </div>
+        
+        <div id="visitors">
+            <ul class="collection with-header" id="guests">
+                <li class="collection-header"><h4>Our Famous Visitors:</h4></li>
+                <li class="collection-item">Albert Einstein</li>
+                <li class="collection-item">Elon Musk</li>
+                <li class="collection-item">Joan of Arc</li>
+            </ul>
+            <p id="middle-p">You might just get alongside them, sign up for the Great Tour</p>
+        </div>
+        <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s6">
+                  <i class="material-icons prefix">account_circle</i>
+                  <input id="icon_prefix" type="text" class="validate">
+                  <label for="icon_prefix">Full Name</label>
+                </div>
+                <div class="input-field col s6">
+                  <i class="material-icons prefix">phone</i>
+                  <input id="icon_telephone" type="tel" class="validate">
+                  <label for="icon_telephone">Telephone</label>
+                </div>
+              </div>
+            </form>
+            <button id="btn2" class="btn waves-effect waves-light #9c27b0 purple" type="submit" name="action">Submit
+                <i class="material-icons right">send</i>
+            </button>
+        </div>
+    </div>
+    <div id="surprise">
+        <a class="btn-floating btn-large waves-effect waves-light #e1bee7 purple lighten-4" id="btn3"><i class="material-icons">add</i></a>
+        <span>Click me for another hint</span>
+    </div>
+    <div id="last-hint">
+        <div id="last-div" style="display: none;">
+            <img src="/images/sunset.jpeg" id="img2">
+            <p>Do not forget to visit our famous beach in Scheveningen ;) </p>
+        </div>
+    </div>
+    <div id="last-buttons">
+        <button class="waves-effect waves-light btn-small #6a1b9a purple darken-3" id="show">Show our Contact Info</button>
+    <button class="waves-effect waves-light btn-small #6a1b9a purple darken-3" id="hide">Hide Info</button>
+    </div>
+    
+    <footer class="page-footer #7b1fa2 purple darken-2">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Our Contact Information:</h5>
+              <p>greattour@thehague</p>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          © 2014 Copyright Text
+          </div>
+        </div>
+    </footer>
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>
